@@ -216,10 +216,10 @@ public class Test {
 			list.add(new SinhVien(ho, ten, "none", diem));
 		}
 		
-		//DanhSach danhSach = new DanhSach(list);
-		//danhSach.sapxep();
-		Collections.sort(list);
-		for (SinhVien e : list) {
+		DanhSach danhSach = new DanhSach(list);
+		danhSach.sapxep();
+		//Collections.sort(list);
+		for (SinhVien e : danhSach.list) {
 			System.out.println(e.getHo() + " " + e.getTen() + " " + Double.toString(e.getDiem()));
 		}
 	}
