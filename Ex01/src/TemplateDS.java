@@ -21,12 +21,12 @@ abstract class Shape {
 
 
 
-public class AbstractExample {
+public class TemplateDS {
 
 	/**
 	 * 
 	 */
-	public AbstractExample() {
+	public TemplateDS() {
 		// TODO Auto-generated constructor stub
 	}
 

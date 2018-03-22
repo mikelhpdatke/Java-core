@@ -6,6 +6,7 @@
  * @author luong
  *
  */
+
 interface CanFlight{
 	static final int MAXHIGH = 1;
 	void flight();
